@@ -84,10 +84,24 @@ div {
 }
 
 #divatua {
+  display: flex;
   width: 253px;
   height: 125px;
   background-color: darkgray;
   border-radius: 5px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#divatua div {
+  height: 127.5px;
+  width: 245px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#divatua img {
+  width: 25px;
+  height: 25px;
 }
 
 #overview-data1 {
