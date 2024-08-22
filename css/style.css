@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: aqua;
+}
+
+div {
+  display: flex;
+}
+
+#div1 {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#div1 h1 {
+  margin-bottom: 0px;
+}
+#div1 p {
+  margin-top: 0px;
+}
+
+#div2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+  width: 50%;
+  height: 50px;
+  margin-top: 15px;
+}
+#div2 input {
+  height: 40px;
+}
+
+#static {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+#static div {
+  width: 257px;
+  height: 216px;
+  background-color: darkgray;
+  border-radius: 5px;
+}
+#static div #crdface {
+  margin: 0px;
+  width: 257px;
+  height: 5px;
+  background-color: hsl(208, 92%, 53%);
+}
+#static div #crdtww {
+  margin: 0px;
+  width: 257px;
+  height: 5px;
+  background-color: hsl(203, 89%, 53%);
+}
+#static div #crdinst {
+  margin: 0px;
+  width: 257px;
+  height: 5px;
+  background: #833ab4;
+  background: linear-gradient(to left, #833ab4, #fd1d1d, #fcb045);
+}
+#static div #crdyou {
+  margin: 0px;
+  width: 257px;
+  height: 5px;
+  background-color: hsl(348, 97%, 39%);
+}
+
+#overview p {
+  margin: 0;
+}
+
+#overview-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#divatua {
+  width: 253px;
+  height: 125px;
+  background-color: darkgray;
+  border-radius: 5px;
+}
+
+#overview-data1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+}/*# sourceMappingURL=style.css.map */
